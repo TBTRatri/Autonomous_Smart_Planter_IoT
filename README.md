@@ -6,6 +6,8 @@ An autonomous robotics and embedded systems project engineered to solve poor irr
 
 ## Architecture & System Overview
 
+![Circuit Diagram](schematics/circuit_diagram.png)
+
 - **Controller:** Arduino Uno R3 (ATmega328P, 16 MHz, 10-bit ADC)
 - **Actuation:** 4-Channel Opto-Isolated Active-LOW Relay driving 3x 5V submersible pumps and an SG90 PWM servo
 - **Sensing Array:** Analog soil moisture sensor, resistive catchment water-level sensor, HC-SR04 ultrasonic sensor, and PIR motion sensor
